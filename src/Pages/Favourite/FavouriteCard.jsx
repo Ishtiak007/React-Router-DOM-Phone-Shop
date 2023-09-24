@@ -3,7 +3,7 @@ const FavouriteCard = ({ phone }) => {
     const { phone_name, brand_name, price, image } = phone || {};
     return (
         <div>
-            <div className='flex justify-center items-center h-[50vh]'>
+            <div className='flex justify-center items-center h-[40vh]'>
                 <div className="relative flex  flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                     <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                         <img
